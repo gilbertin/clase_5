@@ -1,0 +1,104 @@
+1.- Cuando tengo hambre estoy triste, si “hambre” es un valor booleano (true o false), tienes que descifrar si estoy feliz o tengo hambre
+2.- Soy en personaje en un videojuego, y dependiendo del nivel tengo cierto título: Cuando empiezo soy “Aprendiz” si llego al nivel 10 evoluciono a “Acróbata” y si paso del nivel 20 me hago un “ninja” ¿Que soy actualmente?
+3.- Vivo con varios roomies y siempre me roban la comida, entonces le puse una contraseña al refrigerador. Tienes que hacer un programa que valide si mi nombre es el correcto y si mi contraseña también.
+4.- Tengo 3 examenes este semestre y mi papá me dijo que me daría un premio si tengo un promedio final de 8.5 o más, pero si repruebo me va a castigar.  ¿Cual fue mi destino?
+5.- Estoy inscrito a muchas clases porque me gusta aprender: Los lunes y miércoles voy a Historia, los martes a natacion, los jueves a esgrima y los demás días descanso. Dime a qué clase voy si te digo un día.
+6.- Estoy jugando un juego de dados, gano si saco el mismo número en dos de los tres dados. Descubre si gané o no.
+
+
+
+1.- Cuando tengo hambre estoy triste, si “hambre” es un valor booleano (true o false), tienes que descifrar si estoy feliz o tengo hambre
+
+INICIO
+	LEER si tiene hambre?
+	SI hambre == true ENTONCES
+		ESCRIBE “Tengo Hambre”
+	SINO
+		ESCRIBE “Estoy Feliz”
+	FIN-SI
+FIN
+
+
+2.- Soy en personaje en un videojuego, y dependiendo del nivel tengo cierto título: Cuando empiezo soy “Aprendiz” si llego al nivel 10 evoluciono a “Acróbata” y si paso del nivel 20 me hago un “ninja” ¿Que soy actualmente?
+
+INICIO
+    LEER NivelActual 
+    SI NivelAcutal <= 9 
+        ESCRIBE "Es Aprendiz"
+    SI NivelActual >= 10
+        && NivelActual <= 19
+        ESCRIBE "Es Acrobata"
+    SI NivelActual >= 20
+        ESCRIBE "Es Ninja"
+    FIN-SI
+FIN
+
+
+
+3.- Vivo con varios roomies y siempre me roban la comida, entonces le puse una contraseña al refrigerador. Tienes que hacer un programa que valide si mi nombre es el correcto y si mi contraseña también.
+
+INICIO
+    LEER Usuario 
+    LEER Passwd
+        SI Usuario == true
+            ESCRIBE "Ingresa contraseña"
+            SI Password == true
+                ESCRIBE "Bon A Petite"
+            SINO
+                ESCRIBE "Ingresa Passwd Correcto"
+        SINO 
+            ESCRIBE "Ingresa Usuario Valido"
+        FIN-SI
+FIN
+
+INICIO
+
+
+
+
+4.- Tengo 3 examenes este semestre y mi papá me dijo que me daría un premio si tengo un promedio final de 8.5 o más, pero si repruebo me va a castigar.  ¿Cual fue mi destino?
+
+INICIO  
+    LEER calificacion1 calificacion2 calificacion3 
+    promedio = float(calificacion1 + calificacion2 + calificacion3) / 3
+
+    LEER promedio
+        SI promedio => 8.5 
+            ESCRIBE "Mereces Premio"
+        SINO
+            ESCRIBE "Te van a Castigar"
+        FIN-SI
+    FIN
+    
+    
+        
+        
+5.- Estoy inscrito a muchas clases porque me gusta aprender: Los lunes y miércoles voy a Historia, los martes a natacion, los jueves a esgrima y los demás días descanso. Dime a qué clase voy si te digo un día.
+
+INICIO 
+    LEER Dia
+        SI Dia == lunes 
+         ESCRIBE "Historia"
+        SINO 
+            SI Dia == miercoles 
+             ESCRIBE "Historia"
+            SINO 
+                SI Dia == martes
+                 ESCRIBE "Natacion"
+                SINO
+                    SI Dia == jueves
+                     ESCRIBE "Esgrima"
+                    SINO
+                        ESCRIBE "Descanso"
+        FIN-SI
+    FIN
+
+
+
+6.- Estoy jugando un juego de dados, gano si saco el mismo número en dos de los tres dados. Descubre si gané o no.
+
+
+INICIO
+LEER Shot1
+LEER Shot2 
+LEER Shot3
