@@ -6,3 +6,4 @@ const nivel = parseInt('21')
     }else if (nivel >=20) {
         console.log('Es Ninja')
     }
+    
