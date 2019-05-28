@@ -4,10 +4,10 @@
 
 
 
-var i = 8;
+var i = 1;
 let n = 10;
 
 for ( i ; i <= n; i++){
-    console.log(' numero ' + i);
+    console.log(' Paco escribe: Num' + i);
 }
 
