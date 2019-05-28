@@ -1,0 +1,29 @@
+<!--
+Peso(peso, peso_ideal,  cambio_de_peso)
+Fui al nutriologo y me dijo que estaba gordito. Si mi peso es la variable peso y tengo que llegar al peso ideal ¿En cuantas semanas llegaré a ese peso si bajo X kilos por semana?
+-->
+
+
+<!DOCTYPE html>
+<html>
+       <head>
+           <meta charset="UTF-R">
+           <script type="application/javascript">
+                let peso = parseFloat(prompt('Cuanto Peso?'));
+                const peso_ideal = parseFloat(prompt('Cuanto Necesito Bajar?'));
+                let contador_semanas = 0;
+                // for ( var week = 1 ; peso => peso_ideal; week++){
+                //     peso = peso - (parseFloat(prompt('Cuanto Bajaste?')))
+                // }
+                while(peso > peso_ideal){
+                    let peso_perdido = parseInt(prompt('Cuanto Bajaste esta semana?'));
+                    peso = peso - peso_perdido;
+                    contador_semanas++;
+                }
+                console.log('numero semanas ' + contador_semanas);    
+            </script>
+       </head>
+       <body>
+
+       </body>
+</html>
