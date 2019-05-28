@@ -24,14 +24,16 @@ INICIOO
        <head>
            <meta charset="UTF-R">
            <script type="application/javascript">
-                const hambre = String prompt("Escribe tu Usuario"))
-                    if (hambre == "Julian") {
-                        alert('Estoy Triste')
-                    }else {
-                        passwd = String(prompt("Escribe tu Passwd"))
-                        if (passwd == '123' )
-                        alert('logg ed')
-                    }else {
+                const usuario = String(prompt("Escribe tu Usuario: "));
+                    if (usuario == "julian") {
+                        passwd = String(prompt("Escribe tu Passwd: "));
+                    }else if (passwd == '123')  {
+                        alert('logged');
+                    }else if {
+                        usuario = String(prompt("Escribe tu Usuario de nuevo"));
+                        if (usuario =! 'julian'){
+                        alert('usuario no valido');
+                        }else (){
                         passwd != '123'
                         alert("Failed Passwd") }
 
