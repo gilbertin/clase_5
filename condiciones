@@ -99,6 +99,69 @@ INICIO
 
 
 INICIO
-LEER Shot1
-LEER Shot2 
-LEER Shot3
+    LEER Shot1
+    LEER Shot2 
+    LEER Shot3
+
+
+
+
+
+
+
+
+----------
+CICLOS (for,do while, while)
+
+1.- Regaño(num1,num2)
+Paco hizo travesuras en el salón y la maestra lo castigó, para poder salir tiene escribir en el pizarrón todos los números del num1 al num2, ¿puedes ayudarle a Paco a hacer un algoritmo que haga esto por el?
+
+2.- Peso(peso, peso_ideal,  cambio_de_peso)
+Fui al nutriologo y me dijo que estaba gordito. Si mi peso es la variable peso y tengo que llegar al peso ideal ¿En cuantas semanas llegaré a ese peso si bajo X kilos por semana?
+
+-------
+
+
+A Daniel le acaban de mandar una lista con sus calificaciones, quiere saber si su promedio es suficiente para 
+tener una beca este año, el promedio mínimo que necesita es 8, el programa recibirá la cantidad de calificaciones 
+y un arreglo de calificaciones para poder calcular el resultado
+
+Joel quiere ver el porcentaje de veces que falto a clases, el programa recibirá la cantidad de asistencias y
+un arreglo de asistencias para poder calcular el resultado, cada elemento esta representado por un valor booleano
+
+Paco no estudió mucho para sus últimos exámenes, quiere saber cuántos exámenes tendrá que realizar de nuevo, 
+el programa recibirá la cantidad de exámenes y un arreglo de calificaciones para poder calcular el resultado
+
+
+
+
+
+Joel tiene que informar a sus alumnos quienes tienen que repetir curso, el tiene una lista de alumnos, 
+cada alumno tiene un nombre y una lista de calificaciones que se tienen que promediar para saber si el 
+alumno está aprobado, el promedio mínimo para aprobar es 6. 
+Haz un algoritmo que escriba el nombre de los alumnos que no aprobaron.
+
+
+Joel tiene que informar a sus alumnos las materias que reprobaron, el tiene una lista de alumnos, 
+cada alumno tiene un nombre y una lista de materias, cada materia tiene su nombre y su calificación, 
+el promedio mínimo para aprobar es 6. Haz un algoritmo que escriba el nombre del alumno y la materia que reprobó.
+
+
+
+
+
+
+funciones 
+
+
+A Daniel le acaban de mandar una lista con sus calificaciones, quiere saber si su promedio es suficiente para 
+tener una beca este año, el promedio mínimo que necesita es 8, el programa recibirá la cantidad de calificaciones 
+y un arreglo de calificaciones para poder calcular el resultado
+
+
+Joel quiere ver el porcentaje de veces que falto a clases, el programa recibirá la cantidad de asistencias y 
+un arreglo de asistencias para poder calcular el resultado, cada elemento esta representado por un valor booleano
+
+
+Paco no estudió mucho para sus últimos exámenes, quiere saber cuántos exámenes tendrá que realizar de nuevo, 
+el programa recibirá la cantidad de exámenes y un arreglo de calificaciones para poder calcular el resultado
