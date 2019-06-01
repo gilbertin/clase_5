@@ -1,12 +1,30 @@
 // Joel tiene que informar a sus alumnos las materias que reprobaron, el tiene una lista de alumnos, 
 // cada alumno tiene un nombre y una lista de materias, cada materia tiene su nombre y su calificación, 
 // el promedio mínimo para aprobar es 6. Haz un algoritmo que escriba el nombre del alumno y la materia que reprobó.
-
-var alumno_repro = [] 
-var alumnos = [4];
-alumnos[0] = {
+const alumnos = [
+    {
+        nombre: '',
+        materias: [
+            {
+                nombre: '',
+                calificacion: 2
+            }
+        ]
+    },
+    {
+        nombre: '',
+        materias: [
+            {
+                nombre: '',
+                calificacion: 2
+            }
+        ]
+    }
+    
+]
+var alumnos = [{
     "name": "juan",
-    "materias": [
+    "materias": 
         {
         "name": "matematicas",
         "calificacion": 9
@@ -16,13 +34,10 @@ alumnos[0] = {
     }, {
         "name": "quimicas",
         "calificacion": 9
-    }
-
-    ]
-};
-alumnos[1] = {
+    ],
+    
     "name": "pepe",
-    "materias": [
+    "materias":
         {
         "name": "matematicas",
         "calificacion": 8
@@ -33,10 +48,8 @@ alumnos[1] = {
         "name": "quimicas",
         "calificacion": 7
     }
-
-    ]
-};
-alumnos[2] = {
+}
+{
     "name": "maikol",
     "materias": [
         {
@@ -49,12 +62,10 @@ alumnos[2] = {
         "name": "quimicas",
         "calificacion": 9
     }
-
-    ]
-};
-alumnos[3] = {
+}
+{
     "name": "yisus",
-    "materias": [
+    "materias": 
         {
         "name": "matematicas",
         "calificacion": 7
